@@ -1,23 +1,21 @@
 # springboot-multi-projects
 springboot multi-projects gradle
 
-parent  --
-         |
-	      -- parent-starter
+parent
+-- parent-starter
 		  
 		  
 
-modules --
-		 |
-	      -- module-a
-		 |
-		  -- module-b
+modules 
+
+-- module-a
+
+-- module-b
 
 
 
-app     --
-         |
-	      -- app-starter
+app
+-- app-starter
 
 		  
 app-starter --> module-a --> parent-starter
