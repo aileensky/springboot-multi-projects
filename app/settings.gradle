@@ -1,0 +1,10 @@
+rootProject.name = 'app-parent'
+include 'app-starter'
+
+includeFlat 'parent'
+include 'parent:parent-starter'
+
+includeFlat 'modules'
+include 'modules:module-a'
+include 'modules:module-b'
+
